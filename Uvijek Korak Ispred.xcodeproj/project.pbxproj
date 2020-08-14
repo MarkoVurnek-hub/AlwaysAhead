@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0C8AB7214DABA900CF916B /* MyActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF0C8AB6214DABA900CF916B /* MyActions.sks */; };
+		AF191796214D9655009E031B /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF191795214D9655009E031B /* Particle.swift */; };
+		AF19179A214D9811009E031B /* CoinEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF191798214D9811009E031B /* CoinEmitter.sks */; };
+		AF223092214956FD00BCCE08 /* SKNodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF223091214956FD00BCCE08 /* SKNodeExt.swift */; };
+		AF223097214A720F00BCCE08 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF223096214A720F00BCCE08 /* Layer.swift */; };
+		AF223099214A950800BCCE08 /* BackgroundLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF223098214A950800BCCE08 /* BackgroundLayer.swift */; };
+		AF22309B214A9DF600BCCE08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22309A214A9DF600BCCE08 /* Constants.swift */; };
+		AF22309E214AA7DD00BCCE08 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22309D214AA7DD00BCCE08 /* Professor.swift */; };
+		AF3205B9214931320074F6CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3205B8214931320074F6CE /* AppDelegate.swift */; };
+		AF3205BF214931320074F6CE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3205BE214931320074F6CE /* GameScene.swift */; };
+		AF3205C1214931320074F6CE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3205C0214931320074F6CE /* GameViewController.swift */; };
+		AF3205C4214931320074F6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3205C2214931320074F6CE /* Main.storyboard */; };
+		AF3205C9214931320074F6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3205C7214931320074F6CE /* LaunchScreen.storyboard */; };
+		AF3205D4214931330074F6CE /* Uvijek_Korak_IspredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3205D3214931330074F6CE /* Uvijek_Korak_IspredTests.swift */; };
+		AF3205DF214931330074F6CE /* Uvijek_Korak_IspredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3205DE214931330074F6CE /* Uvijek_Korak_IspredUITests.swift */; };
+		AF42FCF9214AB89300068A67 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42FCF8214AB89300068A67 /* Physics.swift */; };
+		AF42FCFB214ACC1600068A67 /* GroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42FCFA214ACC1600068A67 /* GroundNode.swift */; };
+		AF42FCFD214BD86D00068A67 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42FCFC214BD86D00068A67 /* Animations.swift */; };
+		AF42FCFF214C09AE00068A67 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF42FCFE214C09AE00068A67 /* Object.swift */; };
+		AF97F72321493BF700AB2D4C /* Level0_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF97F72221493BF700AB2D4C /* Level0_1.sks */; };
+		AF97F72621493D4600AB2D4C /* MyTileSets.sks in Resources */ = {isa = PBXBuildFile; fileRef = AF97F72521493D4600AB2D4C /* MyTileSets.sks */; };
+		AFAC13F1214DC87300B8B1F3 /* HUDDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC13F0214DC87300B8B1F3 /* HUDDelegate.swift */; };
+		AFAC13F3214DC8E700B8B1F3 /* HUDGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAC13F2214DC8E700B8B1F3 /* HUDGame.swift */; };
+		AFAC13F7214DCA7500B8B1F3 /* Oswald-Stencil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFAC13F6214DCA4800B8B1F3 /* Oswald-Stencil.ttf */; };
+		AFC9CC71214DE59F000F5CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC9CC70214DE59F000F5CF0 /* Assets.xcassets */; };
+		AFC9CC73214E1696000F5CF0 /* OverlayNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9CC72214E1696000F5CF0 /* OverlayNode.swift */; };
+		AFC9CC75214E1713000F5CF0 /* ScoreNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9CC74214E1713000F5CF0 /* ScoreNode.swift */; };
+		AFC9CC77214E1756000F5CF0 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9CC76214E1756000F5CF0 /* Banner.swift */; };
+		AFC9CC79214E1785000F5CF0 /* OverlayButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9CC78214E1785000F5CF0 /* OverlayButtonDelegate.swift */; };
+		AFC9CC7B214E1836000F5CF0 /* SpriteKitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9CC7A214E1836000F5CF0 /* SpriteKitButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF3205D0214931330074F6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF3205AD214931320074F6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF3205B4214931320074F6CE;
+			remoteInfo = "Uvijek Korak Ispred";
+		};
+		AF3205DB214931330074F6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF3205AD214931320074F6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF3205B4214931320074F6CE;
+			remoteInfo = "Uvijek Korak Ispred";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0C8AB6214DABA900CF916B /* MyActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyActions.sks; sourceTree = "<group>"; };
+		AF191795214D9655009E031B /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
+		AF191798214D9811009E031B /* CoinEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CoinEmitter.sks; sourceTree = "<group>"; };
+		AF223091214956FD00BCCE08 /* SKNodeExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKNodeExt.swift; sourceTree = "<group>"; };
+		AF223096214A720F00BCCE08 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		AF223098214A950800BCCE08 /* BackgroundLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLayer.swift; sourceTree = "<group>"; };
+		AF22309A214A9DF600BCCE08 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF22309D214AA7DD00BCCE08 /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		AF3205B5214931320074F6CE /* Uvijek Korak Ispred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uvijek Korak Ispred.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3205B8214931320074F6CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3205BE214931320074F6CE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF3205C0214931320074F6CE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AF3205C3214931320074F6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF3205C8214931320074F6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF3205CA214931320074F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3205CF214931330074F6CE /* Uvijek Korak IspredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uvijek Korak IspredTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3205D3214931330074F6CE /* Uvijek_Korak_IspredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uvijek_Korak_IspredTests.swift; sourceTree = "<group>"; };
+		AF3205D5214931330074F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3205DA214931330074F6CE /* Uvijek Korak IspredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uvijek Korak IspredUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3205DE214931330074F6CE /* Uvijek_Korak_IspredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uvijek_Korak_IspredUITests.swift; sourceTree = "<group>"; };
+		AF3205E0214931330074F6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF42FCF8214AB89300068A67 /* Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		AF42FCFA214ACC1600068A67 /* GroundNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundNode.swift; sourceTree = "<group>"; };
+		AF42FCFC214BD86D00068A67 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		AF42FCFE214C09AE00068A67 /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		AF97F72221493BF700AB2D4C /* Level0_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level0_1.sks; sourceTree = "<group>"; };
+		AF97F72521493D4600AB2D4C /* MyTileSets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSets.sks; sourceTree = "<group>"; };
+		AFAC13F0214DC87300B8B1F3 /* HUDDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDDelegate.swift; sourceTree = "<group>"; };
+		AFAC13F2214DC8E700B8B1F3 /* HUDGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDGame.swift; sourceTree = "<group>"; };
+		AFAC13F6214DCA4800B8B1F3 /* Oswald-Stencil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Stencil.ttf"; sourceTree = "<group>"; };
+		AFC9CC70214DE59F000F5CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC9CC72214E1696000F5CF0 /* OverlayNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayNode.swift; sourceTree = "<group>"; };
+		AFC9CC74214E1713000F5CF0 /* ScoreNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreNode.swift; sourceTree = "<group>"; };
+		AFC9CC76214E1756000F5CF0 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		AFC9CC78214E1785000F5CF0 /* OverlayButtonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayButtonDelegate.swift; sourceTree = "<group>"; };
+		AFC9CC7A214E1836000F5CF0 /* SpriteKitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3205B2214931320074F6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205CC214931330074F6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205D7214931330074F6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF191797214D97C8009E031B /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				AF191798214D9811009E031B /* CoinEmitter.sks */,
+			);
+			path = Emitters;
+			sourceTree = "<group>";
+		};
+		AF223090214956C900BCCE08 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF223091214956FD00BCCE08 /* SKNodeExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AF223095214A711200BCCE08 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				AF223096214A720F00BCCE08 /* Layer.swift */,
+				AF223098214A950800BCCE08 /* BackgroundLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		AF22309C214AA77400BCCE08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF22309D214AA7DD00BCCE08 /* Professor.swift */,
+				AF42FCFA214ACC1600068A67 /* GroundNode.swift */,
+				AFAC13F2214DC8E700B8B1F3 /* HUDGame.swift */,
+				AFC9CC72214E1696000F5CF0 /* OverlayNode.swift */,
+				AFC9CC74214E1713000F5CF0 /* ScoreNode.swift */,
+				AFC9CC76214E1756000F5CF0 /* Banner.swift */,
+				AFC9CC7A214E1836000F5CF0 /* SpriteKitButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF3205AC214931320074F6CE = {
+			isa = PBXGroup;
+			children = (
+				AF3205B7214931320074F6CE /* Uvijek Korak Ispred */,
+				AF3205D2214931330074F6CE /* Uvijek Korak IspredTests */,
+				AF3205DD214931330074F6CE /* Uvijek Korak IspredUITests */,
+				AF3205B6214931320074F6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3205B6214931320074F6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205B5214931320074F6CE /* Uvijek Korak Ispred.app */,
+				AF3205CF214931330074F6CE /* Uvijek Korak IspredTests.xctest */,
+				AF3205DA214931330074F6CE /* Uvijek Korak IspredUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3205B7214931320074F6CE /* Uvijek Korak Ispred */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC13F4214DC93400B8B1F3 /* Resources */,
+				AFAC13EF214DC84A00B8B1F3 /* Protocols */,
+				AF191797214D97C8009E031B /* Emitters */,
+				AF42FCF7214AB86C00068A67 /* Helper */,
+				AF22309C214AA77400BCCE08 /* Classes */,
+				AF223095214A711200BCCE08 /* Layers */,
+				AF223090214956C900BCCE08 /* Extensions */,
+				AF97F72421493D1100AB2D4C /* Tiles */,
+				AF97F72021493B8C00AB2D4C /* Scene Editor Files */,
+				AF3205CA214931320074F6CE /* Info.plist */,
+				AF97F71F214938EB00AB2D4C /* Game Scenes */,
+				AF97F71E214938DB00AB2D4C /* Controller */,
+				AF97F71D2149386500AB2D4C /* UI */,
+				AF97F71C2149383100AB2D4C /* Template */,
+				AFC9CC70214DE59F000F5CF0 /* Assets.xcassets */,
+			);
+			path = "Uvijek Korak Ispred";
+			sourceTree = "<group>";
+		};
+		AF3205D2214931330074F6CE /* Uvijek Korak IspredTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205D3214931330074F6CE /* Uvijek_Korak_IspredTests.swift */,
+				AF3205D5214931330074F6CE /* Info.plist */,
+			);
+			path = "Uvijek Korak IspredTests";
+			sourceTree = "<group>";
+		};
+		AF3205DD214931330074F6CE /* Uvijek Korak IspredUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205DE214931330074F6CE /* Uvijek_Korak_IspredUITests.swift */,
+				AF3205E0214931330074F6CE /* Info.plist */,
+			);
+			path = "Uvijek Korak IspredUITests";
+			sourceTree = "<group>";
+		};
+		AF42FCF7214AB86C00068A67 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AF42FCF8214AB89300068A67 /* Physics.swift */,
+				AF42FCFC214BD86D00068A67 /* Animations.swift */,
+				AF42FCFE214C09AE00068A67 /* Object.swift */,
+				AF191795214D9655009E031B /* Particle.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AF97F71C2149383100AB2D4C /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205B8214931320074F6CE /* AppDelegate.swift */,
+				AF22309A214A9DF600BCCE08 /* Constants.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		AF97F71D2149386500AB2D4C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205C2214931320074F6CE /* Main.storyboard */,
+				AF3205C7214931320074F6CE /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AF97F71E214938DB00AB2D4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205C0214931320074F6CE /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF97F71F214938EB00AB2D4C /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AF3205BE214931320074F6CE /* GameScene.swift */,
+			);
+			path = "Game Scenes";
+			sourceTree = "<group>";
+		};
+		AF97F72021493B8C00AB2D4C /* Scene Editor Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C8AB6214DABA900CF916B /* MyActions.sks */,
+				AF97F72121493BAA00AB2D4C /* Levels */,
+			);
+			path = "Scene Editor Files";
+			sourceTree = "<group>";
+		};
+		AF97F72121493BAA00AB2D4C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				AF97F72221493BF700AB2D4C /* Level0_1.sks */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		AF97F72421493D1100AB2D4C /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				AF97F72521493D4600AB2D4C /* MyTileSets.sks */,
+			);
+			path = Tiles;
+			sourceTree = "<group>";
+		};
+		AFAC13EF214DC84A00B8B1F3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC13F0214DC87300B8B1F3 /* HUDDelegate.swift */,
+				AFC9CC78214E1785000F5CF0 /* OverlayButtonDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AFAC13F4214DC93400B8B1F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC13F5214DC94800B8B1F3 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFAC13F5214DC94800B8B1F3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC13F6214DCA4800B8B1F3 /* Oswald-Stencil.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3205B4214931320074F6CE /* Uvijek Korak Ispred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3205E3214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak Ispred" */;
+			buildPhases = (
+				AF3205B1214931320074F6CE /* Sources */,
+				AF3205B2214931320074F6CE /* Frameworks */,
+				AF3205B3214931320074F6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uvijek Korak Ispred";
+			productName = "Uvijek Korak Ispred";
+			productReference = AF3205B5214931320074F6CE /* Uvijek Korak Ispred.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF3205CE214931330074F6CE /* Uvijek Korak IspredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3205E6214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak IspredTests" */;
+			buildPhases = (
+				AF3205CB214931330074F6CE /* Sources */,
+				AF3205CC214931330074F6CE /* Frameworks */,
+				AF3205CD214931330074F6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3205D1214931330074F6CE /* PBXTargetDependency */,
+			);
+			name = "Uvijek Korak IspredTests";
+			productName = "Uvijek Korak IspredTests";
+			productReference = AF3205CF214931330074F6CE /* Uvijek Korak IspredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF3205D9214931330074F6CE /* Uvijek Korak IspredUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3205E9214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak IspredUITests" */;
+			buildPhases = (
+				AF3205D6214931330074F6CE /* Sources */,
+				AF3205D7214931330074F6CE /* Frameworks */,
+				AF3205D8214931330074F6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF3205DC214931330074F6CE /* PBXTargetDependency */,
+			);
+			name = "Uvijek Korak IspredUITests";
+			productName = "Uvijek Korak IspredUITests";
+			productReference = AF3205DA214931330074F6CE /* Uvijek Korak IspredUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3205AD214931320074F6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marko Vurnek";
+				TargetAttributes = {
+					AF3205B4214931320074F6CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF3205CE214931330074F6CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF3205B4214931320074F6CE;
+					};
+					AF3205D9214931330074F6CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF3205B4214931320074F6CE;
+					};
+				};
+			};
+			buildConfigurationList = AF3205B0214931320074F6CE /* Build configuration list for PBXProject "Uvijek Korak Ispred" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3205AC214931320074F6CE;
+			productRefGroup = AF3205B6214931320074F6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3205B4214931320074F6CE /* Uvijek Korak Ispred */,
+				AF3205CE214931330074F6CE /* Uvijek Korak IspredTests */,
+				AF3205D9214931330074F6CE /* Uvijek Korak IspredUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3205B3214931320074F6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3205C4214931320074F6CE /* Main.storyboard in Resources */,
+				AFAC13F7214DCA7500B8B1F3 /* Oswald-Stencil.ttf in Resources */,
+				AF19179A214D9811009E031B /* CoinEmitter.sks in Resources */,
+				AF97F72621493D4600AB2D4C /* MyTileSets.sks in Resources */,
+				AF0C8AB7214DABA900CF916B /* MyActions.sks in Resources */,
+				AF3205C9214931320074F6CE /* LaunchScreen.storyboard in Resources */,
+				AFC9CC71214DE59F000F5CF0 /* Assets.xcassets in Resources */,
+				AF97F72321493BF700AB2D4C /* Level0_1.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205CD214931330074F6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205D8214931330074F6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3205B1214931320074F6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF191796214D9655009E031B /* Particle.swift in Sources */,
+				AF3205BF214931320074F6CE /* GameScene.swift in Sources */,
+				AFAC13F1214DC87300B8B1F3 /* HUDDelegate.swift in Sources */,
+				AF223099214A950800BCCE08 /* BackgroundLayer.swift in Sources */,
+				AFC9CC73214E1696000F5CF0 /* OverlayNode.swift in Sources */,
+				AF3205C1214931320074F6CE /* GameViewController.swift in Sources */,
+				AF223097214A720F00BCCE08 /* Layer.swift in Sources */,
+				AF22309B214A9DF600BCCE08 /* Constants.swift in Sources */,
+				AF22309E214AA7DD00BCCE08 /* Professor.swift in Sources */,
+				AF3205B9214931320074F6CE /* AppDelegate.swift in Sources */,
+				AFC9CC79214E1785000F5CF0 /* OverlayButtonDelegate.swift in Sources */,
+				AF223092214956FD00BCCE08 /* SKNodeExt.swift in Sources */,
+				AFC9CC77214E1756000F5CF0 /* Banner.swift in Sources */,
+				AF42FCFB214ACC1600068A67 /* GroundNode.swift in Sources */,
+				AF42FCFD214BD86D00068A67 /* Animations.swift in Sources */,
+				AFC9CC7B214E1836000F5CF0 /* SpriteKitButton.swift in Sources */,
+				AFC9CC75214E1713000F5CF0 /* ScoreNode.swift in Sources */,
+				AFAC13F3214DC8E700B8B1F3 /* HUDGame.swift in Sources */,
+				AF42FCFF214C09AE00068A67 /* Object.swift in Sources */,
+				AF42FCF9214AB89300068A67 /* Physics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205CB214931330074F6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3205D4214931330074F6CE /* Uvijek_Korak_IspredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3205D6214931330074F6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3205DF214931330074F6CE /* Uvijek_Korak_IspredUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF3205D1214931330074F6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF3205B4214931320074F6CE /* Uvijek Korak Ispred */;
+			targetProxy = AF3205D0214931330074F6CE /* PBXContainerItemProxy */;
+		};
+		AF3205DC214931330074F6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF3205B4214931320074F6CE /* Uvijek Korak Ispred */;
+			targetProxy = AF3205DB214931330074F6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF3205C2214931320074F6CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3205C3214931320074F6CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF3205C7214931320074F6CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3205C8214931320074F6CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3205E1214931330074F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3205E2214931330074F6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3205E4214931330074F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4292DRPUE;
+				INFOPLIST_FILE = "Uvijek Korak Ispred/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-Ispred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3205E5214931330074F6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4292DRPUE;
+				INFOPLIST_FILE = "Uvijek Korak Ispred/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-Ispred";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF3205E7214931330074F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uvijek Korak IspredTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-IspredTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uvijek Korak Ispred.app/Uvijek Korak Ispred";
+			};
+			name = Debug;
+		};
+		AF3205E8214931330074F6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uvijek Korak IspredTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-IspredTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uvijek Korak Ispred.app/Uvijek Korak Ispred";
+			};
+			name = Release;
+		};
+		AF3205EA214931330074F6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uvijek Korak IspredUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-IspredUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uvijek Korak Ispred";
+			};
+			name = Debug;
+		};
+		AF3205EB214931330074F6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uvijek Korak IspredUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Uvijek-Korak-IspredUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uvijek Korak Ispred";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3205B0214931320074F6CE /* Build configuration list for PBXProject "Uvijek Korak Ispred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3205E1214931330074F6CE /* Debug */,
+				AF3205E2214931330074F6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3205E3214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak Ispred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3205E4214931330074F6CE /* Debug */,
+				AF3205E5214931330074F6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3205E6214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak IspredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3205E7214931330074F6CE /* Debug */,
+				AF3205E8214931330074F6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3205E9214931330074F6CE /* Build configuration list for PBXNativeTarget "Uvijek Korak IspredUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3205EA214931330074F6CE /* Debug */,
+				AF3205EB214931330074F6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3205AD214931320074F6CE /* Project object */;
+}
